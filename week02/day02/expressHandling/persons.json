@@ -1,0 +1,19 @@
+{
+  "persons": [
+    {
+      "id": "1",
+      "name": "Tom Doe",
+      "age": 25
+    },
+    {
+      "id": "2",
+      "name": "Jane Doe",
+      "age": 24
+    },
+    {
+      "id": "3",
+      "name": "Jimmy Doe",
+      "age": "15"
+    }
+  ]
+}
