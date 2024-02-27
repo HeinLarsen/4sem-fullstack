@@ -28,8 +28,8 @@ const router = createBrowserRouter(
     <Route path="/">
       <Route index element={<App />} />
       <Route path="person/:personId" element={<PersonDetail />} />
-      <Route path="person-add" element={<PersonAdd />} />
-      <Route path="address-add" element={<AddressAdd />} />
+      <Route path="person/new" element={<PersonAdd />} />
+      <Route path="address/new" element={<AddressAdd />} />
     </Route>
   )
 );

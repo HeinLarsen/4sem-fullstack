@@ -18,6 +18,12 @@ function App() {
   return (
     <>
       <div>
+        <Link className="button" to="/person/new">
+          {" "}
+          Add Person
+        </Link>{" "}
+        <br />
+        <Link to="/address/new"> Add Address</Link>
         {data.persons.map((person: any) => (
           <Link key={person.id} to={`person/${person.id}`}>
             <h2>{person.name}</h2>
